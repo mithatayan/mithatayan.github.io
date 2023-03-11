@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Alkalami', serif;
+
+}
+.bg-dark-blue{
+    background-color:dimgray;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+#navbar{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    
+} 
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+#navbar ul li{
+    padding-left: 1rem;
+    margin-right: 1rem;
+}
+#navbar ul li a:hover{
+    background-color: brown;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-image: url("img/photo.jpg");
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+
+.welcome{
+    color:orangered;
+    padding-top: 7rem;
+    padding-left: 7rem;
+    padding-bottom: 2rem;
+}
+.front{
+    color: white;
+    padding-left: 7rem;
+    padding-bottom: 2rem;
+}
+.paragraf{
+    width: 500px;
+    float: left;
+    color: white;
+    padding-left: 7rem;
+    
+}
+.social{
+    display: flex;
+    position: absolute;
+}
+.social ul{
+    list-style-type: none;
+    display: flex;
+    padding-top: 6rem;
+    padding-left: 6.3rem;
+}
+.social ul li{
+    padding-left: 10px;
+}
+.bg_right{
+    width: 300px;
+    height: 300px;
+    background-image: url("img/mito.jpg");
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    position: relative;
+    float: right;
+    margin-top: 5rem;
+    margin-right: 7rem;
+    box-shadow: rgba(46, 107, 240, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px, rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px, rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.software{
+    color:white;
+    margin-top: 20rem;
+}
+p{
+    text-shadow: 2px 2px 2px rgb(255, 153, 0);
+}
+.headtext{
+    text-shadow: 2px 2px 2px rgb(2, 10, 43);
+}
